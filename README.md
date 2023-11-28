@@ -1,13 +1,14 @@
 # jbusinessdoc
 
-$\LaTeX$ style file for Japanese business documents.
+$\rm\LaTeX$ style file for Japanese business documents.
 
-$\LaTeX$でビジネス文書を書くためのスタイルファイル．
+$\rm\LaTeX$ でビジネス文書を書くためのスタイルファイル．
 
 ## 使用法
 
-1. 普通の$\LaTeX$文章を用意する（$\mathrm{p}\LaTeX$もしくは$\mathrm{up}\LaTeX$で`jsarticle`を使用することを想定してるので，それ以外だと上手く動かないかも）
-2. `jbusinessdoc.sty` をその$\LaTeX$文書のビルドが通る場所（例えば`.tex`ファイルと同じディレクトリ）に置く
+1. 普通の $\rm\LaTeX$ 文章を用意する（ $\rm p\LaTeX$もしくは $\rm up\LaTeX$ で`jsarticle`を使用することを想定してるので，それ以外だと上手く動かないかも）
+    - $\rm up\LaTeX$ で`jlreq`を使用しても動きました
+2. `jbusinessdoc.sty` をその $\rm\LaTeX$ 文書のビルドが通る場所（例えば`.tex`ファイルと同じディレクトリ）に置く
 3. プリアンブルに`\usepackage{jbusinessdoc}`と書く
 4. `\title`，`\author`，`\date`のほかに，宛先を書くための`\destination`を書く
 5. 必要があれば文章番号となる`\documentnumber`も書く（省略可）
